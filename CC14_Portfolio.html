@@ -27,14 +27,32 @@
             margin-right: 30%;
         }
 
-        button {
-            border: 0;
+        .send {
+            border: none;
             border-radius: 16px;
+            margin: 10px;
             padding: 16px;
         }
 
-        button:hover {
+        input {
+            background-color: whitesmoke;
+            border: none;
+            border-radius: 16px;
+            font-family: Montserrat;
+            padding: 10px;
+        }
+
+        input:hover[type="submit"] {
             background-color: #b79f79;
+        }
+
+        textarea {
+            background-color: whitesmoke;
+            border: none;
+            border-radius: 16px;
+            font-family: Montserrat;
+            margin: 10px;
+            padding: 10px;  
         }
     </style>
 
@@ -64,15 +82,16 @@
             I guess I started being a third-wheeler and had to take photos for people. Then I loved
             the colors of the sky, so I started taking photos until I got obsessed with them—I mean, the sky. 
         </p>
-        <button>Download Resume</button>
     </div>
 
 
     <!--contact-->
     <h2>contact</h2>
-    <input type="text" placeholder="name">
-    <input type="text" placeholder="email">
-    <p><input type="text" placehoder="message"></p>
-    <button>send</button>
+    <form>
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email">
+        <br><textarea placeholder="message"></textarea>
+        <br><input class="send" type="submit" value="send">
+    </form>
 </body>
 </html>
