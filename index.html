@@ -21,6 +21,35 @@
             max-width: 50%;
         }
 
+        .header {
+            position: relative;
+        }
+
+        .header p {
+            color: white;
+            font-size: 1vw;
+
+            left: 50%;
+            top: 45%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+
+        .header-title {
+            color: white;
+            font-size: 5vw;
+
+            left: 50%;
+            top: 30%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+
+        #home {
+            border-radius: 16px;
+            width: 100%;
+        }
+
         input {
             background-color: whitesmoke;
             border: none;
@@ -34,7 +63,10 @@
         }
 
         .navigation {
+            margin-bottom: 15px;
             margin-left: 20px;
+            margin-top: 15px;
+            position: absolute;
             text-align: left;
         }
 
@@ -75,16 +107,16 @@
     <link rel="icon" href="https://img.icons8.com/external-others-inmotus-design/67/000000/external-K-qwerty-keypad-others-inmotus-design-2.png">
 </head>
 <body>
-    <div class="navigation">
-        <a href="#home">home</a>
-        <a href="#works">works</a>
-        <a href="#about">about</a>
-        <a href="#contact">contact</a>
-    </div>
-
     <div class="header">
+        <div class="navigation">
+            <a href="#home">home</a>
+            <a href="#works">works</a>
+            <a href="#about">about</a>
+            <a href="#contact">contact</a>
+        </div>
         <h1 class="header-title">kyn degay</h1>
         <p>not a photographer</p>
+        <img id="home" src="https://i.pinimg.com/736x/ed/53/eb/ed53ebaf10c0acf708b93aac45a1685a.jpg">
     </div>
 
     <div id="works">
