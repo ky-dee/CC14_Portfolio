@@ -56,18 +56,6 @@
             width: 100%;
         }
 
-        input {
-            background-color: whitesmoke;
-            border: none;
-            border-radius: 16px;
-            font-family: Montserrat;
-            padding: 10px;
-        }
-
-        .send:hover {
-            background-color: #b79f79;
-        }
-
         .images img {
             border-radius: 16px;
             margin-top: 15px;
@@ -95,20 +83,33 @@
             text-decoration: underline;
         }
 
+        input {
+            background-color: white;
+            border: none;
+            border-radius: 16px;
+            font-family: Montserrat;
+            padding: 20px;
+        }
+
         .send {
+            color: black;
             border: none;
             border-radius: 16px;
             margin: 10px;
             padding: 16px;
         }
 
+        .send:hover {
+            background-color: rgb(183, 159, 121);
+        }
+
         textarea {
-            background-color: whitesmoke;
+            background-color: white;
             border: none;
             border-radius: 16px;
             font-family: Montserrat;
-            margin: 10px;
-            padding: 10px;  
+            margin: 20px;
+            padding: 30px;  
         }
     </style>
 
@@ -156,14 +157,14 @@
     </div><br>
     
     <h1 id="contact">contact</h1>
-    <!-- <div>
+    <div>
         <form>
-            <input type="text" placeholder="name">
-            <input type="email" placeholder="email">
-            <br><textarea placeholder="message"></textarea>
+            <input class="name" type="text" placeholder="name">
+            <input class="email" type="email" placeholder="email">
+            <br><textarea class="message" placeholder="message"></textarea>
             <br><input class="send" type="submit" value="send">
         </form>
-    </div> -->
+    </div>
 
     <footer>
         <div class="navigation">
