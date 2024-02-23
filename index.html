@@ -92,7 +92,7 @@
             border: none;
             border-radius: 16px;
             font-family: Montserrat;
-            padding: 20px;
+            padding: 15px;
         }
 
         .send {
@@ -112,12 +112,51 @@
             border: none;
             border-radius: 16px;
             font-family: Montserrat;
-            margin: 20px;
-            padding: 30px;  
+            margin: 10px;
+            padding: 20px;  
         }
 
         .credit {
             font-size: 10px;
+        }
+
+        .instagram {
+            left: 48%;
+            top: 40%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+
+            background-image: url("https://img.icons8.com/material-rounded/24/instagram-new.png");
+            display: block;
+            height: 24px;
+            margin: 0 auto;
+            width: 24px;
+        }
+
+        .github {
+            left: 50%;
+            top: 40%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+
+            background-image: url("https://img.icons8.com/material-outlined/24/github.png");
+            display: block;
+            height: 24px;
+            margin: 0 auto;
+            width: 24px;
+        }
+
+        .cat {
+            left: 52%;
+            top: 40%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+
+            background-image: url("https://img.icons8.com/small/24/curious-cat.png");
+            display: block;
+            height: 24px;
+            margin: 0 auto;
+            width: 24px;
         }
     </style>
 
@@ -134,16 +173,21 @@
         </div>
         <h1 class="header-title">kyn degay</h1>
         <p>not a photographer</p>
+        <div class="links">
+            <a href="https://www.instagram.com/qi.weiyen/" class="instagram"></a>
+            <a href="https://github.com/ky-dee/CC14_Portfolio" class="github"></a>
+            <a href="https://ky-dee.github.io/CC14_CatInvitation/" class="cat"></a>
+        </div>
         <img id="home" src="https://i.pinimg.com/736x/ed/53/eb/ed53ebaf10c0acf708b93aac45a1685a.jpg">
     </div>
 
     <h1 id="works">works</h1>
     <div class="images">
-        <img src="https://i.pinimg.com/736x/55/ae/d4/55aed43d8841c955ce0df99021ec3491.jpg">
-        <img src="https://i.pinimg.com/736x/3d/d7/d3/3dd7d3eb6508a717520a14970923fa69.jpg">
-        <img src="https://i.pinimg.com/736x/27/11/f5/2711f5b3db7143417fbfecc8e999f1b8.jpg">
-        <img src="https://i.pinimg.com/736x/92/27/cc/9227cc7f360e37d954766d619fd9e905.jpg">
-        <img src="https://i.pinimg.com/736x/15/3e/7f/153e7f22051086f6ddd4850462e1f9fa.jpg">
+        <img class="sky" src="https://i.pinimg.com/736x/55/ae/d4/55aed43d8841c955ce0df99021ec3491.jpg">
+        <img class="animals" src="https://i.pinimg.com/736x/3d/d7/d3/3dd7d3eb6508a717520a14970923fa69.jpg">
+        <img class="buildings" src="https://i.pinimg.com/736x/27/11/f5/2711f5b3db7143417fbfecc8e999f1b8.jpg">
+        <img class="buildings" src="https://i.pinimg.com/736x/92/27/cc/9227cc7f360e37d954766d619fd9e905.jpg">
+        <img class="nature" src="https://i.pinimg.com/736x/15/3e/7f/153e7f22051086f6ddd4850462e1f9fa.jpg">
     </div><br>
 
     <h1 id="about">about</h1>
@@ -166,7 +210,7 @@
     
     <h1 id="contact">contact</h1>
     <div>
-        <form>
+        <form id="contact-form">
             <input class="name" type="text" placeholder="name">
             <input class="email" type="email" placeholder="email">
             <br><textarea class="message" placeholder="message"></textarea>
